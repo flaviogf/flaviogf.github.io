@@ -6,7 +6,7 @@ Neste artigo vamos aprender como realizar o deploy de uma aplicação Node.js da
 
 ## Requisitos
 
-Para proseguir é necessário que você já tenha criado uma conta no Azure, um processo simples que necessita apenas que você tenha uma e-mail da Microsoft (hotmail ou outlook) e um cartão internacional, a solicitação do cartão no momento do cadastro é somente para fins de segurança, podendo gerar um custo que será estornado no momento seguinte.
+Para prosseguir é necessário que você já tenha criado uma conta no Azure, um processo simples que necessita apenas que você tenha uma e-mail da Microsoft (hotmail ou outlook) e um cartão internacional, a solicitação do cartão no momento do cadastro é somente para fins de segurança, podendo gerar um custo que será estornado no momento seguinte.
 
 ## Acessando o Portal
 
