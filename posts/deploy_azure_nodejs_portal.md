@@ -26,7 +26,7 @@ Depois de selecionarmos a opção veremos uma listagem contendo todos os Resourc
 
 ![Home](../images/003_deploy_azure_nodejs_portal.png)
 
-Nesta etapa nós devemos informar nossas preferências a respeito do Resource group a ser criado, selecionando uma Subscription (normalmente é criado uma no momento de cadastro no Azure mas nós podemos adicionar outras posteriormente), informando um nome e selecionando uma região. Depois disso podemos selecionar a opção "Review + create", e por fim a opção "Create". No exemplo eu selecionei a minha Subscription padrão, dei o nome do Resource Group como "tempflaviogfresourcegroup" e selecionei a região como East US.
+Nesta etapa nós devemos informar nossas preferências a respeito do Resource group a ser criado, selecionando uma Subscription (normalmente é criado uma no momento de cadastro no Azure mas nós podemos adicionar outras posteriormente), informando um nome e selecionando uma região. Depois disso podemos selecionar a opção "Review + create", e por fim a opção "Create". No exemplo selecionei a minha Subscription padrão, nomeei o Resource Group como "tempflaviogfresourcegroup" e selecionei a região como East US.
 
 ![Home](../images/004_deploy_azure_nodejs_portal.png)
 
@@ -42,9 +42,35 @@ Depois de selecionarmos a opção veremos uma listagem agora contendo todos os A
 
 ![Home](../images/007_deploy_azure_nodejs_portal.png)
 
+Agora iremos informar as opções a respeito do nosso App Service Plan a ser criado, selecionando uma Subscription, um Resource Group, informando um nome, selecionando um sistema opercional, uma região e uma camada de preço. Logo após isso podemos selecionar a opção "Review + create", e por fim a opção "Create". No exemplo selecionei minha Subscription padrão, o Resource Group criado na etapa anterior, nomeei o serviço como "tempflaviogfappserviceplan", selecionei o Windows como sistema operacional, a região como East US, e por fim a camada Free F1 disponível somente no Windows.
+
+![Home](../images/008_deploy_azure_nodejs_portal.png)
+
+![Home](../images/009_deploy_azure_nodejs_portal.png)
+
+![Home](../images/010_deploy_azure_nodejs_portal.png)
+
+![Home](../images/011_deploy_azure_nodejs_portal.png)
+
 ## Criando um App Service Web App
 
-## Configurando seu projeto
+Por fim criaremos o último recurso necessário e também o tema principal deste artigo, o App Service Web App, para enfim podermos hospedar nossa aplicação, novamente faremos uma busca pelo recurso agora digitando na barra de pesquisa o termo "App services" e selecionando a opção encontrada.
+
+![Home](../images/012_deploy_azure_nodejs_portal.png)
+
+Veremos novamente uma listagem com nossos recursos já contratados e a opção "Add" que é o nosso interesse principal então selecionaremos ela. 
+
+![Home](../images/013_deploy_azure_nodejs_portal.png)
+
+Agora para prosseguirmos selecionaremos uma Subscription, um Resource Group, informaremos um nome, escolheremos um tipo de publicação, selecionaremos um Runtime, escolheremos um sistema operacional, selecionaremos uma região e um App Service Plan. Enfim podemos selecionar a opção "Review + create", e depois a opção "Create". No exemplo selecionei minha Subscription padrão, o Resource Group criado na primeiro etapa, nomeei o App Service Web App como "tempflaviogfwebapp", escolhi o tipo de publicação Code, selecione o runtime Node 12 LTS, escolhi o sistema operacional Windows, selecionei a região East US e o App Service plan criado na etapa anterior, que esta disponível para seleção por possuir o mesmo sistema operacional deste que estamos criando.
+
+![Home](../images/014_deploy_azure_nodejs_portal.png)
+
+![Home](../images/015_deploy_azure_nodejs_portal.png)
+
+![Home](../images/016_deploy_azure_nodejs_portal.png)
+
+## Configurando o Git
 
 ## Realizando o deploy
 
