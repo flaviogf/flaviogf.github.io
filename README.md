@@ -10,7 +10,7 @@
 
 ## :rocket: Project
 
-:thinking: This repository is destined to save all my articles and tutorials for My blog (or something like that).
+:newspaper: This repository is destined to save all my articles and tutorials for My blog (or something like that).
 
 ## :computer: Techs
 
